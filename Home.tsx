@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import type { ApodData } from "../types";
 import "../App.css";
 
-const APIKEY = "tJ0xZu25hXVm3e6adlbnsyydr6jGiv8AIzKsfsTh";
+const APIKEY = 
 
 function Home() {
   const [data, setData] = useState<ApodData | null>(null);
